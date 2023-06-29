@@ -31,6 +31,8 @@ export const Login = () => {
   }
 
   async function handleLoginGuest() {
+    email.current.value = "john@example.com";
+    password.current.value = "learnreact";
     const authDetail = {
       email: "john@example.com",
       password: "learnreact",
