@@ -11,7 +11,7 @@ export const Position = ({ children, offsetY }) => {
       setIsVisible(true);
     }
   }, [y,offsetY]);
-  console.log(y);
+  // console.log(y);
 
   return (
     <motion.div
