@@ -4,6 +4,7 @@ import { useTitle } from "../hooks/useTitle";
 import { useCart } from "../context";
 import { getProduct } from "../services";
 import { toast } from "react-toastify";
+import { RoutesAnimations } from "../animations";
 
 
 export const ProductDetail = () => {
@@ -43,6 +44,8 @@ export const ProductDetail = () => {
   }, [cartList, product.id]);
 
   return (
+    <RoutesAnimations direction={-1}>
+
     <main>
       <section>
         <h1 className="mt-10 mb-5 text-4xl text-center font-bold text-gray-900 dark:text-slate-200">
@@ -117,5 +120,7 @@ export const ProductDetail = () => {
         </div>
       </section>
     </main>
+    </RoutesAnimations>
+
   );
 };

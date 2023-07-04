@@ -2,6 +2,7 @@ import { useCart } from "../../context";
 import { CartEmpty } from "./components/CartEmpty";
 import { CartList } from "./components/CartList";
 import { useTitle } from "../../hooks/useTitle";
+import { RoutesAnimations } from "../../animations";
 
 export const CartPage = () => {
   const { cartList } = useCart();
@@ -11,8 +12,10 @@ export const CartPage = () => {
   useTitle(`Cart (${cartList.length})`);
 
   return (
-    <main>
-      {cartlist.length ? <CartList cartlist={cartlist} /> : <CartEmpty />}
-    </main>
+    <RoutesAnimations>
+      <main>
+        {cartlist.length ? <CartList cartlist={cartlist} /> : <CartEmpty />}
+      </main>
+    </RoutesAnimations>
   );
 };

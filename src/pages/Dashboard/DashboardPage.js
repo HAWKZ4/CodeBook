@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useTitle } from "../../hooks/useTitle";
 import { getOrders } from "../../services";
 import { toast } from "react-toastify";
+import { RoutesAnimations } from "../../animations";
 
 export const DashboardPage = () => {
   const [orders, setOrders] = useState([]);
@@ -26,19 +27,23 @@ export const DashboardPage = () => {
   }, []);
 
   return (
-    <main>
-      <section>
-        <p className="text-2xl text-center font-semibold dark:text-slate-100 my-10 underline underline-offset-8">
-          My Dashboard
-        </p>
-      </section>
+    <RoutesAnimations>
+      <main>
+        <section>
+          <p className="text-2xl text-center font-semibold dark:text-slate-100 my-10 underline underline-offset-8">
+            My Dashboard
+          </p>
+        </section>
 
-      <section>
-        {orders &&
-          orders.map((order) => <DashboardCard order={order} key={order.id} />)}
-      </section>
+        <section>
+          {orders &&
+            orders.map((order) => (
+              <DashboardCard order={order} key={order.id} />
+            ))}
+        </section>
 
-      <section>{!orders.length && <DashboardEmpty />}</section>
-    </main>
+        <section>{!orders.length && <DashboardEmpty />}</section>
+      </main>
+    </RoutesAnimations>
   );
 };

@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
+import { Fade } from "../../animations";
 
 export const DropdownLoggedOut = ({ setDropdown }) => {
   return (
+    <Fade direction={-1}>
+
     <div
       id="dropdownAvatar"
       className="select-none	absolute top-10 right-0 z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
@@ -39,5 +42,7 @@ export const DropdownLoggedOut = ({ setDropdown }) => {
         </li>
       </ul>
     </div>
+    </Fade>
+
   );
 };
