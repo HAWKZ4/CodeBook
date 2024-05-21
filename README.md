@@ -10,6 +10,7 @@ This application features essential e-commerce functionalities and is built with
 - **Search Functionality:** Advanced search to quickly find books by title, author, or genre.
 - **Dashboard:** A user-friendly dashboard for managing book listings, orders, and user profiles.
 - **Simulated Payment:** A mock payment system to simulate the checkout process without real financial transactions.
+- **Framer Motion:**  A simple yet powerful motion library for React
 
 ## Built With
 
