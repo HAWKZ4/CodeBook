@@ -19,6 +19,9 @@ This application features essential e-commerce functionalities and is built with
 - **JWTAuth:** JSON Web Token authentication for secure user login and registration.
 - **Context API:** React's Context API for state management across the application.
 
+**Note**: The backend part built using Mock Server with json server (that simulates a RESTful API using a JSON file as the data source) and with a (JWT authentication middleware for JSON Server).<br>
+- You can find it here: https://github.com/HAWKZ4/codebook-mock-server
+
 ## Deployment
 
 - **Netlify/Render:** The application is deployed on Netlify/Render for seamless continuous deployment and reliable hosting.
