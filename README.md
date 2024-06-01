@@ -1,7 +1,12 @@
-# Simple E-Commerce BookStore Web Application
+# Book Store Web Application
+
+![Annotation 2023-07-11 235327](https://github.com/HAWKZ4/CodeBook/assets/108879264/e97df73e-a3d0-441b-8ee0-0afeb3454347)
+
 
 Welcome to the **E-Commerce BookStore**, a modern and responsive web application designed for book lovers to browse, search, and purchase books online.<br>
 This application features essential e-commerce functionalities and is built with the latest web technologies.
+
+**Live Demo**: [Check out the live application here](https://codebook-store.netlify.app/)
 
 ## Features
 
