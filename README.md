@@ -16,6 +16,20 @@ This application features essential e-commerce functionalities and is built with
 - **Dashboard:** A user-friendly dashboard for managing book listings, orders, and user profiles.
 - **Simulated Payment:** A mock payment system to simulate the checkout process without real financial transactions.
 - **Framer Motion:**  A simple yet powerful motion library for React
+- **Sort and Filter**:
+-   **Sort by**:
+    -   Price - Low to High
+    -   Price - High to Low
+    -   Rating
+-   **Rating**:
+    -   4 Stars & Above
+    -   3 Stars & Above
+    -   2 Stars & Above
+    -   1 Star & Above
+-   **Other Filters**:
+    -   Best Seller Only
+    -   In Stock Only
+-   **Clear Filters Button**
 
 ## Built With
 
@@ -51,6 +65,7 @@ Start the JSON server:
 5. Run the application:
 
 ## Usage
+
 Register or Login: Create an account or log in with existing credentials.
 
 Browse Books: Explore the collection of books available in the store.
@@ -63,6 +78,7 @@ Checkout: Simulate the checkout process with the mock payment system.
 
 Dashboard: Manage your profile, view order history, and access administrative features if you are an admin.
 
+Sort and Filter: Utilize the sorting and filtering options to refine your book search results.
 
 ## Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to submit a pull request or open an issue.
