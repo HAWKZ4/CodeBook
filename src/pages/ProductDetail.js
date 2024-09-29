@@ -117,7 +117,7 @@ export const ProductDetail = () => {
           </div>
         </section>
       ) : (
-        <p className="dark:text-white">...</p>
+        <p className="dark:text-white">Loading...</p>
       )}
     </main>
   );
