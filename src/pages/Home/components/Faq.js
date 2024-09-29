@@ -1,4 +1,4 @@
-import { Position } from "../../../animations";
+
 import { Accordion } from "./Accordion";
 
 export const Faq = () => {
@@ -30,7 +30,6 @@ export const Faq = () => {
   ];
 
   return (
-    <Position offsetY={1030}>
       <section className="my-10 p-7 border rounded dark:border-slate-700 shadow-sm">
         <h1 className="text-2xl text-center font-semibold dark:text-slate-100 mb-3 underline underline-offset-8">
           Question in mind?
@@ -47,6 +46,5 @@ export const Faq = () => {
           ))}
         </div>
       </section>
-    </  Position>
   );
 };
